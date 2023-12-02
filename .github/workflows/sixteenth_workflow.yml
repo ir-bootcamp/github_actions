@@ -9,7 +9,7 @@ jobs:
         os: [ubuntu-latest, windows-latest]
         node-version: [12, 14, 18]
         include:
-          - os: macos-lates
+          - os: macos-latest
             node-version: 17
           - os: ubuntu-lates
             status: active
