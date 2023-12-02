@@ -11,6 +11,8 @@ jobs:
         include:
           - os: macos-lates
             node-version: 17
+          - os: ubuntu-lates
+            status: active
         exclude:
           - os: ubuntu-latest
             node-version: 14
