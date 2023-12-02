@@ -13,7 +13,7 @@ jobs:
           name: math-result
           path: math-result.txt
   second-job:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     needs: first-jobs
     steps:
       - name: Download file
