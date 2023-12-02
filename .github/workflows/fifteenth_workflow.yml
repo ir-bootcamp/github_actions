@@ -12,3 +12,15 @@ jobs:
         with:
           name: math-result
           path: math-result.txt
+  second-job:
+    runs-on: ubuntu-lates
+    needs: first-jobs
+    steps:
+      - name: Download file
+        uses: actions/download-artifact@v3
+        with:
+          name: math-result
+      - name: Print File
+        run: |
+          value='cat math-result.txt'
+          echo $value
