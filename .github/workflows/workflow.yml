@@ -10,7 +10,7 @@ on:
 
 jobs:
   console-log:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       - name: Print Title
         run: echo '${{ inputs.title }}'
