@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Use Custom Action
-        uses: ./.github/actions/cache-node-modules
+        uses: ./.github/actions/cache-node-module
         with:
           caching: 'false'
