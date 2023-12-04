@@ -1,6 +1,8 @@
 name: Concurrency Testing
 on: workflow_dispatch
-concurrency: concurrency-testing
+concurrency: 
+  group: concurrency-testing
+  cancel-in-progress: true
 jobs:
   test-timeout:
     runs-on: ubuntu-latest
