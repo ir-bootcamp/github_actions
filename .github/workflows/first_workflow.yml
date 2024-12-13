@@ -2,11 +2,11 @@ name: First Workflow
 on: push
 
 jobs:
-  run-first-command:
+  run-the-first-command:
     runs-on: ubuntu-latest
     steps:
       - name: Display some Text
-        run: echo "Some Text"
+        run: echo "Some Text Hello"
       - name: Command in Multiline
         run: |
           node -v
