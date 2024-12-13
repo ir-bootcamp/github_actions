@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Display some Text
-        run: echo "Some Text Hello"
+        run: echo "Some Text Hello There"
       - name: Command in Multiline
         run: |
           node -v
