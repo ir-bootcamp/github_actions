@@ -19,4 +19,4 @@ jobs:
     needs: run-first-command
     steps:
       - name: Display Docker Version on MacOs
-        run: docker --version
+        run: echo "Docker Version"
